@@ -12,6 +12,10 @@
     "test": "echo \"Warning: No tests created yet.\"",
     "eject": "react-scripts eject"
   },
+  "engines":{
+    "node": "18.12.1",
+    "npm": "8.19.2"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/qlows/COMP3104.git"
