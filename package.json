@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
-    "dev": "NODE_OPTIONS=--openssl-legacy-provider next dev",
-    "build": "NODE_OPTIONS=--openssl-legacy-provider next build && next export",
+    "build": "react-scripts build",
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build",
     "test": "echo \"Warning: No tests created yet.\"",
